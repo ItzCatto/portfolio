@@ -27,7 +27,9 @@ if [ "${#MISSING[@]}" -gt 0 ]; then
     if command -v apt-get >/dev/null 2>&1; then
         read -r -p "Install them now with apt? [y/N] " ans
         if [[ "$ans" =~ ^[Yy]$ ]]; then
-            sudo apt-get update
+            # `|| true`: a broken/unsigned third-party repo (Spotify, etc.) makes
+            # `apt-get update` exit non-zero even though the repos we need are fine.
+            sudo apt-get update || true
             sudo apt-get install -y playerctl curl network-manager bluez pulseaudio-utils lm-sensors
         fi
     fi
