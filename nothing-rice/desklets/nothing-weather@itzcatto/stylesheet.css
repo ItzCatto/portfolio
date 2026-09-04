@@ -1,0 +1,34 @@
+.nothing-weather-card {
+    background-color: rgba(10, 10, 10, 0.94);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 22px;
+    padding: 14px 18px;
+    font-family: "JetBrains Mono", "Departure Mono", monospace;
+    spacing: 2px;
+}
+
+.nothing-weather-top {
+    spacing: 10px;
+}
+
+.nothing-weather-temp {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.nothing-weather-icon {
+    font-size: 26px;
+}
+
+.nothing-weather-cond {
+    font-size: 12px;
+    color: #b8b8b8;
+    text-transform: uppercase;
+}
+
+.nothing-weather-city {
+    font-size: 10px;
+    color: #7a7a7a;
+    letter-spacing: 1px;
+}

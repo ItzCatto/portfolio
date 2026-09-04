@@ -1,0 +1,49 @@
+.nothing-media-widget {
+    background-color: rgba(10, 10, 10, 0.94);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 22px;
+    padding: 14px;
+    spacing: 12px;
+    font-family: "JetBrains Mono", "Departure Mono", monospace;
+    width: 240px;
+}
+
+.nothing-vinyl {
+    background-color: #1a1a1a;
+    border: 2px solid #e0392f;
+    border-radius: 32px;
+    padding: 8px;
+    color: #e0392f;
+}
+
+.nothing-media-widget-info {
+    spacing: 4px;
+}
+
+.nothing-media-widget-title {
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.nothing-media-widget-artist {
+    font-size: 10px;
+    color: #9a9a9a;
+}
+
+.nothing-media-widget-btns {
+    spacing: 8px;
+    margin-top: 4px;
+}
+
+.nothing-media-widget-btn {
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 14px;
+    padding: 3px 12px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.nothing-media-widget-btn:hover {
+    background-color: rgba(224, 57, 47, 0.35);
+}
