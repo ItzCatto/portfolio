@@ -1,0 +1,14 @@
+.nothing-clock-card {
+    background-color: rgba(10, 10, 10, 0.94);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 28px;
+    padding: 14px 24px;
+}
+
+.nothing-clock-time {
+    font-family: "JetBrains Mono", "Departure Mono", monospace;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ffffff;
+}

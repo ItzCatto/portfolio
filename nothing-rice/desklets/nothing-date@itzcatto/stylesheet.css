@@ -1,0 +1,20 @@
+.nothing-date-card {
+    background-color: rgba(10, 10, 10, 0.94);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 22px;
+    padding: 16px 20px;
+    font-family: "JetBrains Mono", "Departure Mono", monospace;
+}
+
+.nothing-date-dayname {
+    font-size: 13px;
+    font-weight: bold;
+    color: #e0392f;
+    letter-spacing: 1px;
+}
+
+.nothing-date-daynum {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+}
